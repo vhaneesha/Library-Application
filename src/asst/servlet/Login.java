@@ -61,12 +61,11 @@ public class Login extends HttpServlet {
 		 Connection c = null;
 	        try
 	        {
-	            //String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu27";
-	            String url = "jdbc:mysql://localhost/mydatabase";
-	           // String username = "cs3220stu27";
-	            //String password = "VXlx!72S";
-	            String username = "root";
-	            String password = "Vhan@283!";
+			
+	             //String url = "jdbc:mysql://cs3.calstatela.edu/cs3220stu27";
+	            // String username = "cs3220stu27";
+	           //String password = "***********";
+	     
 
 	            c = DriverManager.getConnection( url, username, password );
 	            Statement stmt = c.createStatement();
